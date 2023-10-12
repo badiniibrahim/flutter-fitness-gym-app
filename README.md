@@ -1,4 +1,4 @@
-# Build Flutter Flutter Fitness GYM application
+# Build Flutter Fitness GYM application
 This is a repository for a Flutter Fitness GYM app your ultimate partner in achieving your fitness, health and wellness goals. Designed to give you a complete gym experience, this powerful and user-friendly app will support you every step of your fitness journey.
 
 
