@@ -31,16 +31,13 @@ class BodyPartView extends GetView<HomeController> {
             centerTitle: true,
           ),
           body: Obx(
-            () => Container(
-              margin: const EdgeInsets.only(top: 20),
-              child: ListView.builder(
-                shrinkWrap: true,
-                itemCount: controller.state.bodyPartList.length,
-                itemBuilder: (BuildContext context, int index) {
-                  final title = controller.state.bodyPartList[index];
-                  return CardItem(title: title);
-                },
-              ),
+            () => ListView.builder(
+              shrinkWrap: true,
+              itemCount: controller.state.bodyPartList.length,
+              itemBuilder: (BuildContext context, int index) {
+                final title = controller.state.bodyPartList[index];
+                return CardItem(title: title);
+              },
             ),
           ),
         );

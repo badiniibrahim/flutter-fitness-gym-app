@@ -1,7 +1,9 @@
 import 'package:fitness_app/core/utilies/colors.style.dart';
 import 'package:fitness_app/core/utilies/image_utils.dart';
 import 'package:fitness_app/core/utilies/texts.style.dart';
+import 'package:fitness_app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class CardItem extends StatelessWidget {
   final String title;
@@ -14,13 +16,21 @@ class CardItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: () {
+        Get.toNamed(Routes.DETAIL, parameters: {
+          "title": title,
+        });
+      },
       child: Container(
-        margin: const EdgeInsets.only(top: 10.0),
-        child: Card(
-          color: AppColors.secondaryText,
-          child: ListTile(
-            leading: Container(
+        margin: const EdgeInsets.symmetric(
+          horizontal: 20.0,
+          vertical: 5.0,
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            Container(
               width: 95,
               height: 95,
               decoration: BoxDecoration(
@@ -29,16 +39,21 @@ class CardItem extends StatelessWidget {
                 ),
               ),
             ),
-            title: Text(
-              title.toUpperCase(),
-              overflow: TextOverflow.ellipsis,
-              style: IText.header4Black.copyWith(
-                fontWeight: FontWeight.bold,
-                fontFamily: 'muli',
-                color: AppColors.white,
+            Center(
+              child: SizedBox(
+                width: 200.0,
+                child: Text(
+                  title.toUpperCase(),
+                  overflow: TextOverflow.ellipsis,
+                  style: IText.header4Black.copyWith(
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'muli',
+                    color: AppColors.black,
+                  ),
+                ),
               ),
             ),
-          ),
+          ],
         ),
       ),
     );
