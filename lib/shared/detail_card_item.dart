@@ -34,7 +34,7 @@ class DetailCardItem extends StatelessWidget {
               child: Image.network(resource['gifUrl']),
             ),
             SizedBox(
-              width: 300.0,
+              width: MediaQuery.of(context).size.width / 1.98,
               child: Text(
                 resource['name'].toString().toUpperCase(),
                 style: AppTheme.lightAppBarTheme.titleTextStyle!.copyWith(
