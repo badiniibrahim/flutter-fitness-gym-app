@@ -1,9 +1,9 @@
 import 'package:animated_notch_bottom_bar/animated_notch_bottom_bar/animated_notch_bottom_bar.dart';
 import 'package:fitness_app/core/utilies/size_config.dart';
-import 'package:fitness_app/modules/bodyPart/views/body_part_view.dart';
-import 'package:fitness_app/modules/equipment/views/equipment_view.dart';
+import 'package:fitness_app/modules/home/widgets/body_part_view.dart';
+import 'package:fitness_app/modules/home/widgets/equipment_view.dart';
 import 'package:fitness_app/modules/home/controllers/home_controller.dart';
-import 'package:fitness_app/modules/target/views/target_view.dart';
+import 'package:fitness_app/modules/home/widgets/target_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
