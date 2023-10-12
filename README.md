@@ -38,11 +38,6 @@ https://rapidapi.com
 ![alt text](2.jpeg)
 ![alt text](3.jpeg)
 
-# Screenshot IOS
-![alt text](ios1.png)
-![alt text](ios2.png)
-![alt text](ios3.png)
-
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
