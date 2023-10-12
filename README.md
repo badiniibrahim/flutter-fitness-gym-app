@@ -21,6 +21,34 @@ This is a repository for a Flutter Fitness GYM app your ultimate partner in achi
 <img src="https://img.shields.io/github/license/Yuberley/ChatGPT-App-React-Native-TypeScript?style&color=5D6D7E" alt="GitHub license" />
 
 
+<a href="https://pub.dev/packages/animated_notch_bottom_bar"><img src="https://img.shields.io/pub/v/animated_notch_bottom_bar.svg?label=animated_notch_bottom_bar" alt="animated_notch_bottom_bar version"></a>
+<a href="https://flutter.dev/"><img src="https://img.shields.io/badge/flutter-website-deepskyblue.svg" alt="Flutter Website"></a>
+<a href="https://dart.dev"><img src="https://img.shields.io/badge/dart-website-deepskyblue.svg" alt="Dart Website"></a>
+<a href="https://developer.android.com" style="pointer-events: stroke;" target="_blank">
+<img src="https://img.shields.io/badge/platform-android-blue">
+</a>
+<a href="https://developer.apple.com/ios/" style="pointer-events: stroke;" target="_blank">
+<img src="https://img.shields.io/badge/platform-iOS-blue">
+</a>
+<a href="" style="pointer-events: stroke;" target="_blank">
+<img src="https://img.shields.io/badge/platform-Web-deepskyblue">
+</a>
+<a href="" style="pointer-events: stroke;" target="_blank">
+<img src="https://img.shields.io/badge/platform-Mac-deepskyblue">
+</a>
+<a href="" style="pointer-events: stroke;" target="_blank">
+<img src="https://img.shields.io/badge/platform-Linux-deepskyblue">
+</a>
+<a href="" style="pointer-events: stroke;" target="_blank">
+<img src="https://img.shields.io/badge/platform-Windows-deepskyblue">
+</a>
+<a href=""><img src="https://app.codacy.com/project/badge/Grade/dc683c9cc61b499fa7cdbf54e4d9ff35"/></a>
+<a href="https://github.com/Mindinventory/animated_notch_bottom_bar/blob/main/LICENSE" style="pointer-events: stroke;" target="_blank">
+<img src="https://img.shields.io/github/license/Mindinventory/animated_notch_bottom_bar"></a>
+<a href="https://pub.dev/packages/animated_notch_bottom_bar"></a>
+<a href="https://github.com/Mindinventory/animated_notch_bottom_bar"><img src="https://img.shields.io/github/stars/Mindinventory/animated_notch_bottom_bar?style=social" alt="MIT License"></a>
+
+
 # Getting Started
 Follow the steps below to run the app on your local machine. You'll need to make sure you have flutter installed along with that Android Studio and XCode installed too in order to test this application in a simulator. Let me know if you encounter issues with the app
 
